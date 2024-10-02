@@ -32,7 +32,7 @@ def visualDataWeather(df):
     return plt
 
 day_pd = pd.read_csv(r'Data/day.csv')
-hour_pd = pd.read_csv(r'Data\hour.csv')
+hour_pd = pd.read_csv(r'Data/hour.csv')
 
 st.title('Dashboard Proyek Analisis Data Dicoding - Nicholas Tanurgoho')
 
